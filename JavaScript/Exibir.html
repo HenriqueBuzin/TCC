@@ -1,0 +1,19 @@
+<script>
+
+    var inicio = window.performance.now();
+
+    var text = "Olá Mundo!";
+
+    document.write(text);
+
+    var fim = window.performance.now();
+
+    document.write("<br />");
+
+    document.write(fim - inicio);
+
+    document.write("<br />");
+
+    document.write(window.performance.memory['usedJSHeapSize']);
+
+</script>
